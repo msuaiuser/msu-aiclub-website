@@ -161,7 +161,8 @@ export async function updateProfile(data: Partial<AccountData>): Promise<string 
             githubUrl: data.githubUrl,
             linkedinUrl: data.linkedinUrl,
             personalWebsite: data.personalWebsite,
-            profilePictureUrl: data.profilePictureUrl
+            profilePictureUrl: data.profilePictureUrl,
+            flowerProfile: data.flowerProfile,
         }
     });
 
